@@ -42,7 +42,7 @@ public class BaseClass
 		//System.out.println(browserName);
 		//String url = pUtils.getPropertyData(ActiTimeConstants.PROPFILE_PATH, ActiTimeConstants.MAINURL);
 
-		if ("chrome".equals(pUtils.getPropertyData(ActiTimeConstants.PROPFILE_PATH, ActiTimeConstants.BROWSER_NAME))) 
+		if ("chrome".equals(browserName)) 
 		{
 			System.setProperty(ActiTimeConstants.CHROME_KEY,ActiTimeConstants.CHROME_PATH);
 			driver = new ChromeDriver();

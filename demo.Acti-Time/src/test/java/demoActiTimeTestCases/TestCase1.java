@@ -1,4 +1,4 @@
-package demo.ActiTimeTestCases;
+package demoActiTimeTestCases;
 
 import demo.actiTimeGenericUtils.BaseClass;
 

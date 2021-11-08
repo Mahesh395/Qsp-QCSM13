@@ -1,4 +1,4 @@
-package demo.ActiTimeTestCases;
+package demoActiTimeTestCases;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
